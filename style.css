@@ -49,10 +49,10 @@ figure{margin:0}
 .hero-cta{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;font-weight:700;font-size:18px;text-decoration:none;padding:15px 28px;border-radius:8px;border:0;cursor:pointer;font-family:inherit}
 .btn:hover{background:var(--blue-d)}
-.hero-kat{display:flex;flex-wrap:wrap;gap:12px 18px;margin-top:40px;padding-top:26px;border-top:1px solid #e8dc9a}
-.hero-kat a{display:flex;align-items:center;gap:10px;color:var(--navy);text-decoration:none;font-weight:600}
+.hero-kat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;max-width:600px;margin-top:40px;padding-top:26px;border-top:1px solid #e8dc9a}
+.hero-kat a{display:flex;flex-direction:column;align-items:flex-start;gap:8px;font-size:16px;color:var(--navy);text-decoration:none;font-weight:600}
 .hero-kat a:hover{text-decoration:underline}
-.hero-kat .kat{min-width:40px;height:40px;font-size:19px}
+.hero-kat .kat{min-width:36px;height:36px;font-size:17px;padding:0 6px}
 .lnk{font-weight:700;font-size:18px;color:var(--navy);text-decoration:none;border-bottom:3px solid var(--yel);padding-bottom:2px}
 
 /* sekcje */
